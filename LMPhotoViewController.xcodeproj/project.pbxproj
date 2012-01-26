@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3DE091F14D1127400E03AA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DE091E14D1127400E03AA7 /* UIKit.framework */; };
+		B3DE092114D1127400E03AA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DE092014D1127400E03AA7 /* Foundation.framework */; };
+		B3DE092314D1127400E03AA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DE092214D1127400E03AA7 /* CoreGraphics.framework */; };
+		B3DE092914D1127400E03AA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3DE092714D1127400E03AA7 /* InfoPlist.strings */; };
+		B3DE092B14D1127400E03AA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE092A14D1127400E03AA7 /* main.m */; };
+		B3DE092F14D1127400E03AA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE092E14D1127400E03AA7 /* AppDelegate.m */; };
+		B3DE093B14D112B700E03AA7 /* LMPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE093814D112B700E03AA7 /* LMPhotoScrollView.m */; };
+		B3DE093C14D112B700E03AA7 /* LMPhotoViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE093A14D112B700E03AA7 /* LMPhotoViewerController.m */; };
+		B3DE094814D1142A00E03AA7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE094614D1142A00E03AA7 /* RootViewController.m */; };
+		B3DE094914D1142A00E03AA7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3DE094714D1142A00E03AA7 /* RootViewController.xib */; };
+		B3DE094D14D1158400E03AA7 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE094B14D1158300E03AA7 /* SampleViewController.m */; };
+		B3DE095514D1194B00E03AA7 /* image01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE094F14D1194B00E03AA7 /* image01@2x.png */; };
+		B3DE095614D1194B00E03AA7 /* image02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE095014D1194B00E03AA7 /* image02@2x.png */; };
+		B3DE095714D1194B00E03AA7 /* image03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE095114D1194B00E03AA7 /* image03@2x.png */; };
+		B3DE095814D1194B00E03AA7 /* image02.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE095214D1194B00E03AA7 /* image02.png */; };
+		B3DE095914D1194B00E03AA7 /* image03.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE095314D1194B00E03AA7 /* image03.png */; };
+		B3DE095A14D1194B00E03AA7 /* image01.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE095414D1194B00E03AA7 /* image01.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3DE091A14D1127400E03AA7 /* LMPhotoViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMPhotoViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DE091E14D1127400E03AA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3DE092014D1127400E03AA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3DE092214D1127400E03AA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3DE092614D1127400E03AA7 /* LMPhotoViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LMPhotoViewController-Info.plist"; sourceTree = "<group>"; };
+		B3DE092814D1127400E03AA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3DE092A14D1127400E03AA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3DE092C14D1127400E03AA7 /* LMPhotoViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LMPhotoViewController-Prefix.pch"; sourceTree = "<group>"; };
+		B3DE092D14D1127400E03AA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3DE092E14D1127400E03AA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3DE093714D112B700E03AA7 /* LMPhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPhotoScrollView.h; sourceTree = "<group>"; };
+		B3DE093814D112B700E03AA7 /* LMPhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPhotoScrollView.m; sourceTree = "<group>"; };
+		B3DE093914D112B700E03AA7 /* LMPhotoViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPhotoViewerController.h; sourceTree = "<group>"; };
+		B3DE093A14D112B700E03AA7 /* LMPhotoViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPhotoViewerController.m; sourceTree = "<group>"; };
+		B3DE094514D1142A00E03AA7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B3DE094614D1142A00E03AA7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B3DE094714D1142A00E03AA7 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		B3DE094A14D1158300E03AA7 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		B3DE094B14D1158300E03AA7 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		B3DE094F14D1194B00E03AA7 /* image01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image01@2x.png"; sourceTree = "<group>"; };
+		B3DE095014D1194B00E03AA7 /* image02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image02@2x.png"; sourceTree = "<group>"; };
+		B3DE095114D1194B00E03AA7 /* image03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image03@2x.png"; sourceTree = "<group>"; };
+		B3DE095214D1194B00E03AA7 /* image02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image02.png; sourceTree = "<group>"; };
+		B3DE095314D1194B00E03AA7 /* image03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image03.png; sourceTree = "<group>"; };
+		B3DE095414D1194B00E03AA7 /* image01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image01.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3DE091714D1127400E03AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DE091F14D1127400E03AA7 /* UIKit.framework in Frameworks */,
+				B3DE092114D1127400E03AA7 /* Foundation.framework in Frameworks */,
+				B3DE092314D1127400E03AA7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3DE090F14D1127400E03AA7 = {
+			isa = PBXGroup;
+			children = (
+				B3DE093514D112B700E03AA7 /* lib */,
+				B3DE092414D1127400E03AA7 /* LMPhotoViewControllerSample */,
+				B3DE091D14D1127400E03AA7 /* Frameworks */,
+				B3DE091B14D1127400E03AA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3DE091B14D1127400E03AA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE091A14D1127400E03AA7 /* LMPhotoViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3DE091D14D1127400E03AA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE091E14D1127400E03AA7 /* UIKit.framework */,
+				B3DE092014D1127400E03AA7 /* Foundation.framework */,
+				B3DE092214D1127400E03AA7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3DE092414D1127400E03AA7 /* LMPhotoViewControllerSample */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE092D14D1127400E03AA7 /* AppDelegate.h */,
+				B3DE092E14D1127400E03AA7 /* AppDelegate.m */,
+				B3DE092514D1127400E03AA7 /* Supporting Files */,
+				B3DE094514D1142A00E03AA7 /* RootViewController.h */,
+				B3DE094614D1142A00E03AA7 /* RootViewController.m */,
+				B3DE094714D1142A00E03AA7 /* RootViewController.xib */,
+				B3DE094A14D1158300E03AA7 /* SampleViewController.h */,
+				B3DE094B14D1158300E03AA7 /* SampleViewController.m */,
+			);
+			name = LMPhotoViewControllerSample;
+			path = LMPhotoViewController;
+			sourceTree = "<group>";
+		};
+		B3DE092514D1127400E03AA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE094F14D1194B00E03AA7 /* image01@2x.png */,
+				B3DE095014D1194B00E03AA7 /* image02@2x.png */,
+				B3DE095114D1194B00E03AA7 /* image03@2x.png */,
+				B3DE095214D1194B00E03AA7 /* image02.png */,
+				B3DE095314D1194B00E03AA7 /* image03.png */,
+				B3DE095414D1194B00E03AA7 /* image01.png */,
+				B3DE092614D1127400E03AA7 /* LMPhotoViewController-Info.plist */,
+				B3DE092714D1127400E03AA7 /* InfoPlist.strings */,
+				B3DE092A14D1127400E03AA7 /* main.m */,
+				B3DE092C14D1127400E03AA7 /* LMPhotoViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3DE093514D112B700E03AA7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE093614D112B700E03AA7 /* LMPhotoViewController */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B3DE093614D112B700E03AA7 /* LMPhotoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE093714D112B700E03AA7 /* LMPhotoScrollView.h */,
+				B3DE093814D112B700E03AA7 /* LMPhotoScrollView.m */,
+				B3DE093914D112B700E03AA7 /* LMPhotoViewerController.h */,
+				B3DE093A14D112B700E03AA7 /* LMPhotoViewerController.m */,
+			);
+			path = LMPhotoViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3DE091914D1127400E03AA7 /* LMPhotoViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DE093214D1127400E03AA7 /* Build configuration list for PBXNativeTarget "LMPhotoViewController" */;
+			buildPhases = (
+				B3DE091614D1127400E03AA7 /* Sources */,
+				B3DE091714D1127400E03AA7 /* Frameworks */,
+				B3DE091814D1127400E03AA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMPhotoViewController;
+			productName = LMPhotoViewController;
+			productReference = B3DE091A14D1127400E03AA7 /* LMPhotoViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3DE091114D1127400E03AA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B3DE091414D1127400E03AA7 /* Build configuration list for PBXProject "LMPhotoViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3DE090F14D1127400E03AA7;
+			productRefGroup = B3DE091B14D1127400E03AA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3DE091914D1127400E03AA7 /* LMPhotoViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3DE091814D1127400E03AA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DE092914D1127400E03AA7 /* InfoPlist.strings in Resources */,
+				B3DE094914D1142A00E03AA7 /* RootViewController.xib in Resources */,
+				B3DE095514D1194B00E03AA7 /* image01@2x.png in Resources */,
+				B3DE095614D1194B00E03AA7 /* image02@2x.png in Resources */,
+				B3DE095714D1194B00E03AA7 /* image03@2x.png in Resources */,
+				B3DE095814D1194B00E03AA7 /* image02.png in Resources */,
+				B3DE095914D1194B00E03AA7 /* image03.png in Resources */,
+				B3DE095A14D1194B00E03AA7 /* image01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3DE091614D1127400E03AA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DE092B14D1127400E03AA7 /* main.m in Sources */,
+				B3DE092F14D1127400E03AA7 /* AppDelegate.m in Sources */,
+				B3DE093B14D112B700E03AA7 /* LMPhotoScrollView.m in Sources */,
+				B3DE093C14D112B700E03AA7 /* LMPhotoViewerController.m in Sources */,
+				B3DE094814D1142A00E03AA7 /* RootViewController.m in Sources */,
+				B3DE094D14D1158400E03AA7 /* SampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3DE092714D1127400E03AA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DE092814D1127400E03AA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3DE093014D1127400E03AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3DE093114D1127400E03AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3DE093314D1127400E03AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LMPhotoViewController/LMPhotoViewController-Prefix.pch";
+				INFOPLIST_FILE = "LMPhotoViewController/LMPhotoViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3DE093414D1127400E03AA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LMPhotoViewController/LMPhotoViewController-Prefix.pch";
+				INFOPLIST_FILE = "LMPhotoViewController/LMPhotoViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3DE091414D1127400E03AA7 /* Build configuration list for PBXProject "LMPhotoViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DE093014D1127400E03AA7 /* Debug */,
+				B3DE093114D1127400E03AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DE093214D1127400E03AA7 /* Build configuration list for PBXNativeTarget "LMPhotoViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DE093314D1127400E03AA7 /* Debug */,
+				B3DE093414D1127400E03AA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3DE091114D1127400E03AA7 /* Project object */;
+}
